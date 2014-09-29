@@ -27,7 +27,7 @@ module.exports = function (grunt) {
 
         watch: {
             input: {
-                files: ['<%= hulksmash.input %>/{,**/}*.{png,jpg,jpeg}'],
+                files: ['<%= hulksmash.input %>/{,**/}*.{png,jpg,jpeg,gif}'],
                 tasks: ['imagemin:input']
             },
         },
@@ -36,7 +36,7 @@ module.exports = function (grunt) {
         imagemin: {
             input: {
                 files: [{
-                    src: '{,**/}*.{png,jpg,jpeg}',
+                    src: '{,**/}*.{png,jpg,jpeg,gif}',
                     dest: '<%= hulksmash.output %>',
                     expand: true,
                     cwd: '<%= hulksmash.input %>'

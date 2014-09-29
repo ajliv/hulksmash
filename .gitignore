@@ -3,7 +3,9 @@ npm-debug.log
 
 .output
 .input/*
-!.input/test.jpg
+!.input/hulksmash.jpg
+!.input/hulksmash.png
+!.input/hulksmash.gif
 
 # Folder view configuration files
 .DS_Store
